@@ -13,8 +13,8 @@
 4. Docker<br/>
    How To<br/> - 
    https://runnable.com/docker/install-docker-on-windows-10<br/>
-   https://docs.docker.com/docker-for-windows/install/
-   Download - 
+   https://docs.docker.com/docker-for-windows/install/<br/>
+   Download - https://download.docker.com/win/beta/InstallDocker.msi<br/>
 5. Maven Wrapper (mvnw) - (FYI - No Action Required)<br/>
    To install Maven Wrapper (mvnw) with maven installed<br/>
 	mvn -N io.takari:maven:wrapper<br/>
