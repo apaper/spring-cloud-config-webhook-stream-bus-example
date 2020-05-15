@@ -3,14 +3,13 @@
 ## Installation (Windows)
 1. Git Bash<br/>
    How To - https://www.techoism.com/how-to-install-git-bash-on-windows<br/>
-   Download - https://gitforwindows.org<br/>
+   Download - https://gitforwindows.org
 2. Java 12<br/>
    How To - https://www.quora.com/How-can-I-Install-Java-JDK-12-on-Windows-10<br/>
-   Download - https://www.oracle.com/java/technologies/javase/jdk12-archive-downloads.html<br/>
+   Download - https://www.oracle.com/java/technologies/javase/jdk12-archive-downloads.html
 3. Maven<br/>
    How To - https://howtodoinjava.com/maven/how-to-install-maven-on-windows/<br/>
-   Download - https://maven.apache.org/download.cgi<br/>
-
+   Download - https://maven.apache.org/download.cgi
 3. Docker<br/>
 
 ## Download Project
