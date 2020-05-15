@@ -7,6 +7,8 @@
 2. Java 12<br/>
    https://www.quora.com/How-can-I-Install-Java-JDK-12-on-Windows-10<br/>
    https://www.oracle.com/java/technologies/javase/jdk12-archive-downloads.html
+3. Maven<br/>
+
 3. Docker<br/>
 
 ## Download Project
