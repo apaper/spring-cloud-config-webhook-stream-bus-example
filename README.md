@@ -2,10 +2,10 @@
 
 ## Installation (Windows)
 1. Git Bash<br/>
-   https://www.techoism.com/how-to-install-git-bash-on-windows
+   https://www.techoism.com/how-to-install-git-bash-on-windows<br/>
    https://gitforwindows.org
 2. Java 12<br/>
-   https://www.quora.com/How-can-I-Install-Java-JDK-12-on-Windows-10
+   https://www.quora.com/How-can-I-Install-Java-JDK-12-on-Windows-10<br/>
    https://www.oracle.com/java/technologies/javase/jdk12-archive-downloads.html
 3. Docker<br/>
 
