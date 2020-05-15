@@ -75,4 +75,3 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    curl -X POST "http://localhost:8081/actuator/bus-refresh" -H "Content-Type: application/json" -d '{  }'
 3. Bus Environment - Add environment properties<br/>
    curl -X POST "http://localhost:8081/actuator/bus-env" -H "Content-Type: application/json" -d '{ "name": "temp.value", "value": "XYZ" }'
-
