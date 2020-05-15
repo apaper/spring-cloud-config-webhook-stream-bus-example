@@ -13,16 +13,13 @@
 git clone https://github.com/apaper/spring-cloud-config-webhook-stream-bus-example.git
 
 ## Build Project
-cd spring-cloud-config-webhook-stream-bus-example/scripts
-./build.sh
+cd spring-cloud-config-webhook-stream-bus-example/scripts; ./build.sh
 
 ## Startup Project
-cd spring-cloud-config-webhook-stream-bus-example/scripts
-./startup.sh
+cd spring-cloud-config-webhook-stream-bus-example/scripts; ./startup.sh
 
 ## Shutdown Project
-cd spring-cloud-config-webhook-stream-bus-example/scripts
-./shutdown.sh
+cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
 
 ## Local BrowserUrl(s)
 1. Rabbit MQ
