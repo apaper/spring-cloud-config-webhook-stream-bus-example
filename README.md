@@ -39,17 +39,28 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./startup.sh
 cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
 
 ## Local BrowserUrl(s)
-1. Message Service (RabbitMQ)
+1. Message Service (RabbitMQ)<br/>
    http://localhost:15672
-2. Vault Service
+2. Vault Service<br/>
    http://localhost:8200
-3. Configuration Service (spring-cloud-config-server)
-   http://localhost:8888
-4. Department Service
-   http://localhost:8081
-5. Employee Service
-   http://localhost:8082
-   
+3. Configuration Service (spring-cloud-config-server)<br/>
+   http://localhost:8888<br/>
+   http://localhost:8888/actuator/env<br/>
+   http://localhost:8888/application/default<br/>
+   http://localhost:8888/employee-service/default<br/>
+   http://localhost:8888/department-service/default<br/>
+4. Department Service<br/>
+   http://localhost:8081<br/>
+   http://localhost:8081/actuator/env<br/>
+   http://localhost:8081/service<br/>
+   http://localhost:8081/service/shared/property<br/>
+   http://localhost:8081/service/private/property<br/>
+5. Employee Service<br/>
+   http://localhost:8082<br/>
+   http://localhost:8082/actuator/env<br/>
+   http://localhost:8081/service/shared/property<br/>
+   http://localhost:8081/service/private/property<br/>
+
 ## Local Curl Commands to Test/Verify
 1. Configuration Service - Monitor Endpoint (Simulate Github Webhook call)<br/>
    curl -v -X POST "http://localhost:8888/monitor" -H "Content-Type: application/json" -H "X-Event-Key: repo:push" -H "X-Hook-UUID: webhook-uuid" -d '{"push": {"changes": []} }'
