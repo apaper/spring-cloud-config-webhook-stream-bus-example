@@ -11,11 +11,9 @@
    How To - https://howtodoinjava.com/maven/how-to-install-maven-on-windows/<br/>
    Download - https://maven.apache.org/download.cgi
 4. Docker<br/>
-   How To -<br/> 
-   https://runnable.com/docker/install-docker-on-windows-10<br/>
-   https://docs.docker.com/docker-for-windows/install/<br/>
+   How To - https://docs.docker.com/docker-for-windows/install/<br/>
    Download - https://download.docker.com/win/beta/InstallDocker.msi<br/>
-5. Maven Wrapper (mvnw) - (FYI - No Action Required)<br/>
+5. Maven Wrapper (mvnw) - (FYI Only, we have this embedded within the project repositories)<br/>
    To install Maven Wrapper (mvnw) with maven installed<br/>
 	mvn -N io.takari:maven:wrapper<br/>
    To install Maven Wrapper (mvnw) without maven installed<br/>
