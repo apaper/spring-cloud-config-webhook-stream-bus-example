@@ -29,19 +29,21 @@
 ## Download Project
 git clone https://github.com/apaper/spring-cloud-config-webhook-stream-bus-example.git
 
-## Create/Pull Containers
+## Create/Pull/List Containers
 1. docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management<br/> 
 2. docker run -d -p 8200:8200 --name vault -e 'VAULT_DEV_ROOT_TOKEN_ID=myroot' -e 'VAULT_DEV_LISTEN_ADDRESS=0.0.0.0:8200' vault<br/>
 3. docker pull rabbitmq:3-management<br/>
 4. docker pull vault<br/>
+5. docker container ls -all (list all containers)
+6. docker container ls (list running containers)
 
-## Build Project
+## Build Project (Spring Boot Applications)
 cd spring-cloud-config-webhook-stream-bus-example/scripts; ./build.sh
 
-## Startup Project
+## Startup Project (Containers & Spring Boot Applications)
 cd spring-cloud-config-webhook-stream-bus-example/scripts; ./startup.sh
 
-## Shutdown Project
+## Shutdown Project (Containers & Spring Boot Applications)
 cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
 
 ## Local BrowserUrl(s)
