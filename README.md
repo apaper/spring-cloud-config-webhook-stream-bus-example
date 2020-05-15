@@ -11,7 +11,7 @@
    How To - https://howtodoinjava.com/maven/how-to-install-maven-on-windows/<br/>
    Download - https://maven.apache.org/download.cgi
 4. Docker<br/>
-   How To<br/> - 
+   How To -<br/> 
    https://runnable.com/docker/install-docker-on-windows-10<br/>
    https://docs.docker.com/docker-for-windows/install/<br/>
    Download - https://download.docker.com/win/beta/InstallDocker.msi<br/>
