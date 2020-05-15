@@ -45,3 +45,4 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts
    curl -X POST "http://localhost:8081/actuator/bus-env" -H "Content-Type: application/json" -d '{ "name": "temp.value", "value": "XYZ" }'
 
 
+
