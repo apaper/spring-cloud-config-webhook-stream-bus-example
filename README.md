@@ -13,12 +13,12 @@
 4. Docker<br/>
 5. Maven Wrapper (mvnw) - (FYI - No Action Required)<br/>
    To install Maven Wrapper (mvnw) with maven installed<br/>
-	mvn -N io.takari:maven:wrapper
+	mvn -N io.takari:maven:wrapper<br/>
    To install Maven Wrapper (mvnw) without maven installed<br/>
-	curl -sL https://github.com/shyiko/mvnw/releases/download/0.1.0/mvnw.tar.gz | tar xvz
+	curl -sL https://github.com/shyiko/mvnw/releases/download/0.1.0/mvnw.tar.gz | tar xvz<br/>
    Maven Wrapper References<br/>
-	https://github.com/takari/takari-maven-plugin
-	https://github.com/takari/maven-wrapper
+	https://github.com/takari/takari-maven-plugin<br/>
+	https://github.com/takari/maven-wrapper<br/>
 	https://github.com/shyiko/mvnw
 
 ## Download Project
