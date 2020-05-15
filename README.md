@@ -1,12 +1,12 @@
 # spring-cloud-config-webhook-stream-bus-example
 
 ## Installation (Windows)
-1. Git Bash <br>
+1. Git Bash<br/>
    https://www.techoism.com/how-to-install-git-bash-on-windows/ | https://gitforwindows.org/
-2. Java 12 <br>
+2. Java 12<br/>
    https://www.quora.com/How-can-I-Install-Java-JDK-12-on-Windows-10
    https://www.oracle.com/java/technologies/javase/jdk12-archive-downloads.html
-3. Docker
+3. Docker<br/>
 
 ## Download Project
 git clone https://github.com/apaper/spring-cloud-config-webhook-stream-bus-example.git
@@ -36,11 +36,11 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts
    http://localhost:8082
    
 ## Local Curl Commands to Test/Verify
-1. Configuration Service - Monitor Endpoint (Simulate Github Webhook call)
+1. Configuration Service - Monitor Endpoint (Simulate Github Webhook call)<br/>
    curl -v -X POST "http://localhost:8888/monitor" -H "Content-Type: application/json" -H "X-Event-Key: repo:push" -H "X-Hook-UUID: webhook-uuid" -d '{"push": {"changes": []} }'
-2. Bus Refresh - Refresh configuration properties
+2. Bus Refresh - Refresh configuration properties<br/>
    curl -X POST "http://localhost:8081/actuator/bus-refresh" -H "Content-Type: application/json" -d '{  }'
-3. Bus Environment - Add environment properties
+3. Bus Environment - Add environment properties<br/>
    curl -X POST "http://localhost:8081/actuator/bus-env" -H "Content-Type: application/json" -d '{ "name": "temp.value", "value": "XYZ" }'
 
 
