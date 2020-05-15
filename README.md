@@ -13,7 +13,7 @@
 4. Docker<br/>
    How To - https://docs.docker.com/docker-for-windows/install/<br/>
    Download - https://download.docker.com/win/beta/InstallDocker.msi<br/>
-5. Maven Wrapper (mvnw) - (FYI Only, we have this embedded within the project repositories)<br/>
+5. Maven Wrapper (mvnw) - FYI Only, already embedded within the maven projects<br/>
 
    To install Maven Wrapper (mvnw) with maven installed<br/>
 	mvn -N io.takari:maven:wrapper<br/>
