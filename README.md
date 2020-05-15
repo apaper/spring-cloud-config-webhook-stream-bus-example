@@ -39,9 +39,9 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./startup.sh
 cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
 
 ## Local BrowserUrl(s)
-1. Rabbit MQ
+1. Message Service (RabbitMQ)
    http://localhost:15672
-2. Vault
+2. Vault Service
    http://localhost:8200
 3. Configuration Service (spring-cloud-config-server)
    http://localhost:8888
