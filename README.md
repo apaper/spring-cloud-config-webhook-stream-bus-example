@@ -1,15 +1,17 @@
 # spring-cloud-config-webhook-stream-bus-example
 
-## Reference Material - Articles & Source Code<br/>
-### Reference Articles<br/>
-Part 1 - https://springbootdev.com/2018/07/14/microservices-introduction-to-spring-cloud-config-server-with-client-examples/<br/>
-Part 2 - https://springbootdev.com/2018/07/17/spring-cloud-config-refreshing-the-config-changes-with-spring-cloud-bus-part-2/<br/>
-Part 3 - https://springbootdev.com/2018/07/21/spring-cloud-config-using-git-webhook-to-auto-refresh-the-config-changes-with-spring-cloud-stream-spring-cloud-bus-and-rabbitmq-part-3/<br/>
+## Reference Articles & Source Code Repositories<br/>
+ntroduction to Spring Cloud Config Server and Config Client (Part 1)<br/>
+https://springbootdev.com/2018/07/14/microservices-introduction-to-spring-cloud-config-server-with-client-examples/<br/>
+https://github.com/chathurangat/spring-cloud-config-example<br/>
 
-### Reference Source Code<br/>
-Part 1 - https://github.com/chathurangat/spring-cloud-config-example<br/>
-Part 2 - https://github.com/chathurangat/spring-cloud-config-bus-refresh-example<br/>
-Part 3 - https://github.com/chathurangat/spring-cloud-config-webhook-stream-bus-example<br/>
+Refreshing the config changes with Spring Cloud Bus (Part 2)<br/>
+https://springbootdev.com/2018/07/17/spring-cloud-config-refreshing-the-config-changes-with-spring-cloud-bus-part-2/<br/>
+https://github.com/chathurangat/spring-cloud-config-bus-refresh-example<br/>
+
+Using Git Webhook to Auto Refresh the config changes with Spring Cloud Stream, Spring Cloud Bus and RabbitMQ (Part 3)<br/>
+https://springbootdev.com/2018/07/21/spring-cloud-config-using-git-webhook-to-auto-refresh-the-config-changes-with-spring-cloud-stream-spring-cloud-bus-and-rabbitmq-part-3/<br/>
+https://github.com/chathurangat/spring-cloud-config-webhook-stream-bus-example<br/>
 
 ## Installation (Windows)
 1. Git Bash<br/>
