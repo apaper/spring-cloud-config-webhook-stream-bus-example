@@ -25,8 +25,8 @@
 	https://github.com/takari/takari-maven-plugin<br/>
 	https://github.com/takari/maven-wrapper<br/>
 	https://github.com/shyiko/mvnw
-6. Vault - FYI We are using containers but local installation to support CLI is currently required by the vault-load-data.sh 
-   How To - https://www.vaultproject.io/docs/install
+6. Vault - FYI We are using containers but local installation to support CLI is currently required by the vault-load-data.sh<br/> 
+   How To - https://www.vaultproject.io/docs/install<br/>
    Download - https://www.vaultproject.io/downloads
 
 ## Download Project
