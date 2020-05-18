@@ -25,7 +25,10 @@
 	https://github.com/takari/takari-maven-plugin<br/>
 	https://github.com/takari/maven-wrapper<br/>
 	https://github.com/shyiko/mvnw
-6. Vault - FYI We are using containers but local installation to support CLI is currently required by the vault-load-data.sh<br/> 
+6. Vault - Prototype leverages the vault container but we are currently installing because</br>
+           the vault CLI is used by vault-load-data.sh during startup.sh scripts<br/> 
+	   Need to remove this dependency in the future<br/>
+          
    How To - https://www.vaultproject.io/docs/install<br/>
    Download - https://www.vaultproject.io/downloads
 
