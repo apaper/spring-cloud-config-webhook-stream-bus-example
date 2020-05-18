@@ -25,7 +25,7 @@
 	https://github.com/takari/takari-maven-plugin<br/>
 	https://github.com/takari/maven-wrapper<br/>
 	https://github.com/shyiko/mvnw
-6. Vault - Prototype leverages the vault container.  However, we are installing vault to leverage the CLI to load data (vault-data-load.sh) during system startup.  Plan to remove this dependency in the future<br/>
+6. Vault - Prototype leverages the vault container.  We are installing vault locally to leverage the CLI to load data (vault-data-load.sh) during system startup.  Plan to remove this dependency in the future<br/>
           
    How To - https://www.vaultproject.io/docs/install<br/>
    Download - https://www.vaultproject.io/downloads
