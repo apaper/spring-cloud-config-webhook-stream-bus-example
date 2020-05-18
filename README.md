@@ -37,16 +37,14 @@ git clone https://github.com/apaper/spring-cloud-config-webhook-stream-bus-examp
 cd spring-cloud-config-webhook-stream-bus-example/scripts; ./check-env.sh
 <b>OR</b> 
 which git; git --version<br/>
-env | grep JAVA_HOME
-which java; java --version
-which javac; javac --version
-env | grep MAVEN_HOME
-which mvn; mvn --version
-which docker; docker --version
-env | grep VAULT
-which vault; vault --version
-
-
+env | grep JAVA_HOME<br/>
+which java; java --version<br/>
+which javac; javac --version<br/>
+env | grep MAVEN_HOME<br/>
+which mvn; mvn --version<br/>
+which docker; docker --version<br/>
+env | grep VAULT<br/>
+which vault; vault --version<br/>
 
 ## Create/Pull/List Containers
 1. docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management<br/> 
