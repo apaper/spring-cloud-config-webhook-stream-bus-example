@@ -34,8 +34,8 @@
 git clone https://github.com/apaper/spring-cloud-config-webhook-stream-bus-example.git
 
 ## Check Environment (Environment Variables, Path, Installed Versions)
-cd spring-cloud-config-webhook-stream-bus-example/scripts; ./check-env.sh
-<b>OR</b> 
+cd spring-cloud-config-webhook-stream-bus-example/scripts; ./check-env.sh<br/>
+<b>OR</b> <br/>
 which git; git --version<br/>
 env | grep JAVA_HOME<br/>
 which java; java --version<br/>
