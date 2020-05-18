@@ -1,7 +1,7 @@
 # spring-cloud-config-webhook-stream-bus-example
 
 ## Reference Articles & Source Code Repositories<br/>
-ntroduction to Spring Cloud Config Server and Config Client (Part 1)<br/>
+Introduction to Spring Cloud Config Server and Config Client (Part 1)<br/>
 https://springbootdev.com/2018/07/14/microservices-introduction-to-spring-cloud-config-server-with-client-examples/<br/>
 https://github.com/chathurangat/spring-cloud-config-example<br/>
 
