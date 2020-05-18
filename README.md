@@ -4,7 +4,7 @@
 ### Reference Articles<br/>
 Part 1 - https://springbootdev.com/2018/07/14/microservices-introduction-to-spring-cloud-config-server-with-client-examples/<br/>
 Part 2 - https://springbootdev.com/2018/07/17/spring-cloud-config-refreshing-the-config-changes-with-spring-cloud-bus-part-2/<br/>
-Part 3 - https://springbootdev.com/2018/07/21/spring-cloud-config-using-git-webhook-to-auto-refresh-the-config-changes-with-<br/>spring-cloud-stream-spring-cloud-bus-and-rabbitmq-part-3/
+Part 3 - https://springbootdev.com/2018/07/21/spring-cloud-config-using-git-webhook-to-auto-refresh-the-config-changes-with-spring-cloud-stream-spring-cloud-bus-and-rabbitmq-part-3/<br/>
 
 ### Reference Source Code<br/>
 Part 1 - https://github.com/chathurangat/spring-cloud-config-example<br/>
