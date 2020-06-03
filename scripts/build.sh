@@ -7,6 +7,12 @@ cd  ../spring-cloud-config-server; ./mvnw clean install
 #cd  ../spring-cloud-config-server; ./mvnw clean install -DskipTests
 
 echo "*************************************"
+echo " build eureka-service"
+echo "*************************************"
+#cd  ../eureka-service; ./mvnw clean install
+cd  ../eureka-service; ./mvnw clean install -DskipTests
+
+echo "*************************************"
 echo " build department-service"
 echo "*************************************"
 cd ../department-service; ./mvnw clean install -DskipTests
