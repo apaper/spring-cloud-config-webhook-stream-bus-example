@@ -1,4 +1,5 @@
 #!/bin/sh
+
 echo ""
 echo "*************************************"
 echo " List the spring boot services"
@@ -8,7 +9,39 @@ ps -aef | grep java
 
 echo ""
 echo "*************************************"
-echo " Kill the spring boot services"
+echo " taskkill department-service port 8081"
+echo "*************************************"
+echo ""
+netstat -ano | findstr :8081 | awk '{ print $5 }' | sort | uniq | while read pid; do taskkill //PID ${pid} //F; done;
+sleep 5
+
+echo ""
+echo "*************************************"
+echo " taskkill employee-service port 8082"
+echo "*************************************"
+echo ""
+netstat -ano | findstr :8082 | awk '{ print $5 }' | sort | uniq | while read pid; do taskkill //PID ${pid} //F; done;
+sleep 5
+
+echo ""
+echo "*************************************"
+echo " taskkill eureka-service port 8761"
+echo "*************************************"
+echo ""
+netstat -ano | findstr :8761 | awk '{ print $5 }' | sort | uniq | while read pid; do taskkill //PID ${pid} //F; done;
+sleep 5
+
+echo ""
+echo "*************************************"
+echo " taskkill config-service port 8888"
+echo "*************************************"
+echo ""
+netstat -ano | findstr :8888 | awk '{ print $5 }' | sort | uniq | while read pid; do taskkill //PID ${pid} //F; done;
+sleep 5
+
+echo ""
+echo "*************************************"
+echo " Kill any remaining java spring boot services"
 echo "*************************************"
 echo ""
 kill $(ps -aef | grep java | awk '{print $2}')
