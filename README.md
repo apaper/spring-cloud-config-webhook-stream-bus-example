@@ -18,6 +18,15 @@ https://github.com/mp911de/spring-cloud-vault-config-samples/tree/master/spring-
 https://github.com/mp911de/spring-cloud-vault-config-samples/tree/master/spring-cloud-vault<br/>
 https://github.com/mp911de/spring-cloud-vault-config-samples<br/>
 
+5. Spring Cloud Netflix Eureka Examples<br/>
+https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-eureka-server.html<br/>
+https://spring.io/guides/gs/service-registration-and-discovery/<br/>
+https://engineering.pivotal.io/post/local-eureka-zuul-cloud_config-with-spring/<br/>
+https://medium.com/javascript-in-plain-english/implementing-eureka-and-zuul-for-service-discovery-and-dynamic-routing-in-javascript-microservices-45a7ac18837a<br/>
+https://stackoverflow.com/questions/32616329/eureka-never-unregisters-a-service<br/>
+https://github.com/ExampleDriven/spring-cloud-eureka-example<br/>
+
+
 ## Installation (Windows)
 1. Git Bash<br/>
    How To - https://www.techoism.com/how-to-install-git-bash-on-windows<br/>
@@ -90,8 +99,16 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8888<br/>
    http://localhost:8888/actuator/env<br/>
    http://localhost:8888/application/default<br/>
-   http://localhost:8888/employee-service/default<br/>
+   http://localhost:8888/application-default.properties<br/>
+   http://localhost:8888/application-service/default<br/>
+   http://localhost:8888/employee-service-default.properties<br/>
+   http://localhost:8888/employee-service-default.yml<br/>
    http://localhost:8888/department-service/default<br/>
+   http://localhost:8888/department-service-default.properties<br/>
+   http://localhost:8888/department-service-default.yml<br/>
+   http://localhost:8888/eureka-service/default<br/>
+   http://localhost:8888/eureka-service-default.properties<br/>
+   http://localhost:8888/eureka-service-default.yml<br/>
 4. Department Service<br/>
    http://localhost:8081<br/>
    http://localhost:8081/actuator/env<br/>
@@ -104,6 +121,11 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8081/service<br/>
    http://localhost:8081/service/shared/property<br/>
    http://localhost:8081/service/private/property<br/>
+6. Eureka Service<br/>
+   http://localhost:8761<br/>
+   http://localhost:8761/eureka/apps<br/>
+   http://localhost:8761/actuator/env<br/>
+
 
 ## Local Curl Commands to Test/Verify
 1. Configuration Service - Monitor Endpoint (Simulate Github Webhook call)<br/>
