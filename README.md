@@ -100,7 +100,7 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8888/actuator/env<br/>
    http://localhost:8888/application/default<br/>
    http://localhost:8888/application-default.properties<br/>
-   http://localhost:8888/application-service/default<br/>
+   http://localhost:8888/employee-service/default<br/>
    http://localhost:8888/employee-service-default.properties<br/>
    http://localhost:8888/employee-service-default.yml<br/>
    http://localhost:8888/department-service/default<br/>
