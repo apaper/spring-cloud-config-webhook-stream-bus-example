@@ -25,6 +25,14 @@ sleep 5
 
 echo ""
 echo "*************************************"
+echo " taskkill zuul-service port 8011"
+echo "*************************************"
+echo ""
+netstat -ano | findstr :8011 | awk '{ print $5 }' | sort | uniq | while read pid; do taskkill //PID ${pid} //F; done;
+sleep 5
+
+echo ""
+echo "*************************************"
 echo " taskkill eureka-service port 8761"
 echo "*************************************"
 echo ""
