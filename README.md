@@ -134,16 +134,16 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8761/eureka/apps<br/>
    http://localhost:8761/actuator/env<br/>
 7. Zuul Service<br/>
-   http://localhost:8011
-   http://localhost:8011/actuator/env
-   http://localhost:8011/actuator/routes
-   http://localhost:8011/actuator/routes/details
-   http://localhost:8888/zuul-service/default
-   http://localhost:8888/zuul-service-default.properties
-   http://localhost:8888/zuul-service-default.yml
-   http://localhost:8011/em/api/eureka-service/eureka/apps
-   http://localhost:8011/em/api/department-service/service
-   http://localhost:8011/em/api/employee-service/service
+   http://localhost:8011<br/>
+   http://localhost:8011/actuator/env<br/>
+   http://localhost:8011/actuator/routes<br/>
+   http://localhost:8011/actuator/routes/details<br/>
+   http://localhost:8888/zuul-service/default<br/>
+   http://localhost:8888/zuul-service-default.properties<br/>
+   http://localhost:8888/zuul-service-default.yml<br/>
+   http://localhost:8011/em/api/eureka-service/eureka/apps<br/>
+   http://localhost:8011/em/api/department-service/service<br/>
+   http://localhost:8011/em/api/employee-service/service<br/>
 
 
 ## Local Curl Commands to Test/Verify
