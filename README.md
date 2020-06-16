@@ -138,9 +138,6 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8011/actuator/env<br/>
    http://localhost:8011/actuator/routes<br/>
    http://localhost:8011/actuator/routes/details<br/>
-   http://localhost:8888/zuul-service/default<br/>
-   http://localhost:8888/zuul-service-default.properties<br/>
-   http://localhost:8888/zuul-service-default.yml<br/>
    http://localhost:8011/em/api/eureka-service/eureka/apps<br/>
    http://localhost:8011/em/api/department-service/service<br/>
    http://localhost:8011/em/api/employee-service/service<br/>
