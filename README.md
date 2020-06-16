@@ -26,7 +26,7 @@ https://medium.com/javascript-in-plain-english/implementing-eureka-and-zuul-for-
 https://stackoverflow.com/questions/32616329/eureka-never-unregisters-a-service<br/>
 https://github.com/ExampleDriven/spring-cloud-eureka-example<br/>
 
-6. Spring Cloud Netflix Zuul Examples
+6. Spring Cloud Netflix Zuul Examples<br/>
 https://www.javainuse.com/spring/spring-cloud-netflix-zuul-tutorial<br/>
 https://github.com/spring-cloud-samples/sample-zuul-filters/tree/master/src/main/java/org/springframework/cloud/samplezuulfilters<br/>
 https://howtodoinjava.com/spring-cloud/spring-cloud-api-gateway-zuul/<br/>
