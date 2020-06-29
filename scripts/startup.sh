@@ -31,6 +31,12 @@ echo "*************************************"
 sleep 30
 
 echo "*************************************"
+echo " start admin-service"
+echo "*************************************"
+(start mintty './start-admin-service.sh')
+sleep 30
+
+echo "*************************************"
 echo " start zuul-service"
 echo "*************************************"
 (start mintty './start-zuul-service.sh')

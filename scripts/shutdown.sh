@@ -33,6 +33,14 @@ sleep 5
 
 echo ""
 echo "*************************************"
+echo " taskkill admin-service port 8080"
+echo "*************************************"
+echo ""
+netstat -ano | findstr :8080 | awk '{ print $5 }' | sort | uniq | while read pid; do taskkill //PID ${pid} //F; done;
+sleep 5
+
+echo ""
+echo "*************************************"
 echo " taskkill eureka-service port 8761"
 echo "*************************************"
 echo ""

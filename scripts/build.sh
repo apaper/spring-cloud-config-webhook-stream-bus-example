@@ -13,6 +13,11 @@ echo "*************************************"
 cd  ../eureka-service; ./mvnw clean install -DskipTests
 
 echo "*************************************"
+echo " build admin-service"
+echo "*************************************"
+cd ../admin-service; ./mvnw clean install -DskipTests
+
+echo "*************************************"
 echo " build zuul-service"
 echo "*************************************"
 #cd  ../zuul-service; ./mvnw clean install
