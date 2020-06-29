@@ -26,6 +26,10 @@ https://medium.com/javascript-in-plain-english/implementing-eureka-and-zuul-for-
 https://stackoverflow.com/questions/32616329/eureka-never-unregisters-a-service<br/>
 https://github.com/ExampleDriven/spring-cloud-eureka-example<br/>
 
+6. Spring Cloud Netflix Zuul Examples<br/>
+https://www.javainuse.com/spring/spring-cloud-netflix-zuul-tutorial<br/>
+https://github.com/spring-cloud-samples/sample-zuul-filters/tree/master/src/main/java/org/springframework/cloud/samplezuulfilters<br/>
+https://howtodoinjava.com/spring-cloud/spring-cloud-api-gateway-zuul/<br/>
 
 ## Installation (Windows)
 1. Git Bash<br/>
@@ -109,6 +113,10 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8888/eureka-service/default<br/>
    http://localhost:8888/eureka-service-default.properties<br/>
    http://localhost:8888/eureka-service-default.yml<br/>
+   http://localhost:8888/zuul-service/default<br/>
+   http://localhost:8888/zuul-service-default.properties<br/>
+   http://localhost:8888/zuul-service-default.yml<br/>
+   
 4. Department Service<br/>
    http://localhost:8081<br/>
    http://localhost:8081/actuator/env<br/>
@@ -125,6 +133,14 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8761<br/>
    http://localhost:8761/eureka/apps<br/>
    http://localhost:8761/actuator/env<br/>
+7. Zuul Service<br/>
+   http://localhost:8011<br/>
+   http://localhost:8011/actuator/env<br/>
+   http://localhost:8011/actuator/routes<br/>
+   http://localhost:8011/actuator/routes/details<br/>
+   http://localhost:8011/em/api/eureka-service/eureka/apps<br/>
+   http://localhost:8011/em/api/department-service/service<br/>
+   http://localhost:8011/em/api/employee-service/service<br/>
 
 
 ## Local Curl Commands to Test/Verify
