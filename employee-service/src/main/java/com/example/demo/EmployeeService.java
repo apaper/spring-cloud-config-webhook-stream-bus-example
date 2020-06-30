@@ -1,12 +1,18 @@
-package com.springbootdev.springcloud.examples.employeeservice;
+package com.example.demo;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EmployeeServiceApplication {
+public class EmployeeService {
+
+	private static final Logger LOG = LoggerFactory.getLogger(EmployeeService.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmployeeServiceApplication.class, args);
+		LOG.info("BEGIN");
+		SpringApplication.run(EmployeeService.class, args);
+		LOG.info("END");
 	}
 }
