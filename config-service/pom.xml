@@ -4,12 +4,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.springbootdev.spring-cloud.examples</groupId>
-	<artifactId>spring-cloud-config-server</artifactId>
+	<groupId>com.example</groupId>
+	<artifactId>config-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-cloud-config-server</name>
+	<name>config-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -73,6 +73,14 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>build-info</id>
+						<goals>
+							<goal>build-info</goal>
+						</goals>
+					</execution>
+				</executions>	
 			</plugin>
 		</plugins>
 	</build>
