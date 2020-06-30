@@ -4,6 +4,7 @@
 1. Introduction to Spring Cloud Config Server and Config Client (Part 1)<br/>
 https://springbootdev.com/2018/07/14/microservices-introduction-to-spring-cloud-config-server-with-client-examples/<br/>
 https://github.com/chathurangat/spring-cloud-config-example<br/>
+https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-external-config<br/>
 
 2. Refreshing the config changes with Spring Cloud Bus (Part 2)<br/>
 https://springbootdev.com/2018/07/17/spring-cloud-config-refreshing-the-config-changes-with-spring-cloud-bus-part-2/<br/>
@@ -30,6 +31,30 @@ https://github.com/ExampleDriven/spring-cloud-eureka-example<br/>
 https://www.javainuse.com/spring/spring-cloud-netflix-zuul-tutorial<br/>
 https://github.com/spring-cloud-samples/sample-zuul-filters/tree/master/src/main/java/org/springframework/cloud/samplezuulfilters<br/>
 https://howtodoinjava.com/spring-cloud/spring-cloud-api-gateway-zuul/<br/>
+
+7. Spring Boot Admin Server Examples<br/>
+https://codecentric.github.io/spring-boot-admin/2.2.3/#getting-started<br>
+https://github.com/codecentric/spring-boot-admin<br>
+https://www.tutorialspoint.com/spring_boot/spring_boot_admin_server.htm<br/>
+https://medium.com/@pkt.siva/manage-spring-boot-applications-using-spring-boot-admin-6c8759f708c6<br/>
+https://chiranjeevigk.wordpress.com/2019/12/11/spring-boot-admin-with-log-viewer/<br>
+https://github.com/chiranjeevibmse/spring-boot-admin<br/>
+https://howtodoinjava.com/spring-boot2/logging/spring-boot-logging-configurations/<br/>
+https://medium.com/@iroshan.du/configure-spring-boot-admin-dashboard-for-micro-services-through-eureka-server-fcbeda752831<br>
+https://www.baeldung.com/spring-boot-admin<br>
+https://www.baeldung.com/spring-boot-logging<br/>
+https://www.javainuse.com/spring/boot-admin<br/>
+https://www.vojtechruzicka.com/spring-boot-version/<br/>
+https://howtodoinjava.com/spring-boot/actuator-endpoints-example/<br/>
+https://zoltanaltfatter.com/2018/05/15/spring-cloud-discovery-with-spring-boot-admin/<br>
+https://www.amitph.com/spring-boot-admin-server/<br>
+https://levelup.gitconnected.com/application-monitoring-using-spring-boot-admin-part-2-ed14178c6964<br>
+
+8. Spring Boot Admin Videos
+https://www.youtube.com/watch?v=PWd9Q8_4OFo<br/>
+https://www.youtube.com/watch?v=Ql1Gnz4L_-c&feature=youtu.be<br/>
+
+
 
 ## Installation (Windows)
 1. Git Bash<br/>
@@ -141,7 +166,9 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8011/em/api/eureka-service/eureka/apps<br/>
    http://localhost:8011/em/api/department-service/service<br/>
    http://localhost:8011/em/api/employee-service/service<br/>
-
+8. Admin Service (spring-boot-admin-server)<br/>
+   http://localhost:8080<br/>
+   http://localhost:8082/actuator/env<br/>
 
 ## Local Curl Commands to Test/Verify
 1. Configuration Service - Monitor Endpoint (Simulate Github Webhook call)<br/>
