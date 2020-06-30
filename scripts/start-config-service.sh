@@ -3,6 +3,6 @@
 echo "*************************************"
 echo " start config-service"
 echo "*************************************"
-pushd ../spring-cloud-config-server
+pushd ../config-service
 ./mvnw spring-boot:run
 

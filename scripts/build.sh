@@ -1,10 +1,10 @@
 #!/bin/sh
 
 echo "*************************************"
-echo " build spring-cloud-config-server"
+echo " build config-service"
 echo "*************************************"
-cd  ../spring-cloud-config-server; ./mvnw clean install
-#cd  ../spring-cloud-config-server; ./mvnw clean install -DskipTests
+cd  ../config-service; ./mvnw clean install
+#cd  ../config-service; ./mvnw clean install -DskipTests
 
 echo "*************************************"
 echo " build eureka-service"
