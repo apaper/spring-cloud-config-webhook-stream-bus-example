@@ -168,7 +168,7 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8011/em/api/employee-service/service<br/>
 8. Admin Service (spring-boot-admin-server)<br/>
    http://localhost:8080<br/>
-   http://localhost:8082/actuator/env<br/>
+   http://localhost:8080/actuator/env<br/>
 
 ## Local Curl Commands to Test/Verify
 1. Configuration Service - Monitor Endpoint (Simulate Github Webhook call)<br/>
