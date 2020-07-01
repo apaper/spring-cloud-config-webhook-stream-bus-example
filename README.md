@@ -50,7 +50,7 @@ https://zoltanaltfatter.com/2018/05/15/spring-cloud-discovery-with-spring-boot-a
 https://www.amitph.com/spring-boot-admin-server/<br>
 https://levelup.gitconnected.com/application-monitoring-using-spring-boot-admin-part-2-ed14178c6964<br>
 
-8. Spring Boot Admin Videos
+8. Spring Boot Admin Videos<br/>
 https://www.youtube.com/watch?v=PWd9Q8_4OFo<br/>
 https://www.youtube.com/watch?v=Ql1Gnz4L_-c&feature=youtu.be<br/>
 
@@ -151,9 +151,9 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
 5. Employee Service<br/>
    http://localhost:8082<br/>
    http://localhost:8082/actuator/env<br/>
-   http://localhost:8081/service<br/>
-   http://localhost:8081/service/shared/property<br/>
-   http://localhost:8081/service/private/property<br/>
+   http://localhost:8082/service<br/>
+   http://localhost:8082/service/shared/property<br/>
+   http://localhost:8082/service/private/property<br/>
 6. Eureka Service<br/>
    http://localhost:8761<br/>
    http://localhost:8761/eureka/apps<br/>
