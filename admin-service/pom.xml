@@ -79,6 +79,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>	
+
+		<dependency>
+			<groupId>nl.devillers</groupId>
+			<artifactId>spring-boot-admin-hystrix-dashboard</artifactId>
+			<version>1.0.2</version>
 		</dependency>		
 
 		<dependency>
