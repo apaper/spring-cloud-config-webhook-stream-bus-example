@@ -55,12 +55,6 @@ echo "*************************************"
 sleep 30
 
 echo "*************************************"
-echo " start h2-data-service"
-echo "*************************************"
-(start mintty './start-h2-data-service.sh')
-sleep 30
-
-echo "*************************************"
 echo " List the spring boot services -> ps -aef"
 echo "*************************************"
 ps -aef
