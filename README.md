@@ -55,19 +55,19 @@ https://www.youtube.com/watch?v=PWd9Q8_4OFo<br/>
 https://www.youtube.com/watch?v=Ql1Gnz4L_-c&feature=youtu.be<br/>
 
 9. H2 Database & Console Examples<br/>
-https://www.h2database.com/html/main.html
-https://www.h2database.com/html/quickstart.html
-https://howtodoinjava.com/spring-boot2/spring-boot-crud-hibernate/
-https://springframework.guru/using-the-h2-database-console-in-spring-boot-with-spring-security/
+https://www.h2database.com/html/main.html<br/>
+https://www.h2database.com/html/quickstart.html<br/>
+https://howtodoinjava.com/spring-boot2/spring-boot-crud-hibernate/<br/>
+https://springframework.guru/using-the-h2-database-console-in-spring-boot-with-spring-security/<br/>
 
 10. OpenAPI 3 & Swagger<br/>
-https://www.openapis.org/
-https://swagger.io/specification/
-https://swagger.io/resources/open-api/
-https://swagger.io/blog/news/whats-new-in-openapi-3-0/
-https://www.baeldung.com/spring-rest-openapi-documentation
-https://dzone.com/articles/openapi-3-documentation-with-spring-boot
-https://github.com/hemantsonu20/api-gateway-sample
+https://www.openapis.org/<br/>
+https://swagger.io/specification/<br/>
+https://swagger.io/resources/open-api/<br/>
+https://swagger.io/blog/news/whats-new-in-openapi-3-0/<br/>
+https://www.baeldung.com/spring-rest-openapi-documentation<br/>
+https://dzone.com/articles/openapi-3-documentation-with-spring-boot<br/>
+https://github.com/hemantsonu20/api-gateway-sample<br/>
 
 
 ## Installation (Windows)
