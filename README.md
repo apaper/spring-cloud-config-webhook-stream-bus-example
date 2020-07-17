@@ -160,8 +160,8 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8082/api-docs/<br/>
    http://localhost:8082/api-docs.yaml<br/>
    http://localhost:8082/api-tester/swagger-ui.html<br/>
-   http://localhost:8082/h2
-	Enter JDBC URL: jdbc:h2:mem:protodb
+   http://localhost:8082/h2<br/>
+      Enter JDBC URL: jdbc:h2:mem:protodb
 6. Eureka Service<br/>
    http://localhost:8761<br/>
    http://localhost:8761/eureka/apps<br/>
