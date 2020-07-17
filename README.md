@@ -54,6 +54,20 @@ https://levelup.gitconnected.com/application-monitoring-using-spring-boot-admin-
 https://www.youtube.com/watch?v=PWd9Q8_4OFo<br/>
 https://www.youtube.com/watch?v=Ql1Gnz4L_-c&feature=youtu.be<br/>
 
+9. H2 Database & Console Examples<br/>
+https://www.h2database.com/html/main.html
+https://www.h2database.com/html/quickstart.html
+https://howtodoinjava.com/spring-boot2/spring-boot-crud-hibernate/
+https://springframework.guru/using-the-h2-database-console-in-spring-boot-with-spring-security/
+
+10. OpenAPI 3 & Swagger<br/>
+https://www.openapis.org/
+https://swagger.io/specification/
+https://swagger.io/resources/open-api/
+https://swagger.io/blog/news/whats-new-in-openapi-3-0/
+https://www.baeldung.com/spring-rest-openapi-documentation
+https://dzone.com/articles/openapi-3-documentation-with-spring-boot
+https://github.com/hemantsonu20/api-gateway-sample
 
 
 ## Installation (Windows)
