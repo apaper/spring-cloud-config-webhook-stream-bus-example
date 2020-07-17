@@ -148,12 +148,20 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8081/service<br/>
    http://localhost:8081/service/shared/property<br/>
    http://localhost:8081/service/private/property<br/>
+   http://localhost:8081/api-docs/<br/>
+   http://localhost:8081/api-docs.yaml<br/>
+   http://localhost:8081/api-tester/swagger-ui.html<br/>
 5. Employee Service<br/>
    http://localhost:8082<br/>
    http://localhost:8082/actuator/env<br/>
    http://localhost:8082/service<br/>
    http://localhost:8082/service/shared/property<br/>
    http://localhost:8082/service/private/property<br/>
+   http://localhost:8082/api-docs/<br/>
+   http://localhost:8082/api-docs.yaml<br/>
+   http://localhost:8082/api-tester/swagger-ui.html<br/>
+   http://localhost:8082/h2
+	Enter JDBC URL: jdbc:h2:mem:protodb
 6. Eureka Service<br/>
    http://localhost:8761<br/>
    http://localhost:8761/eureka/apps<br/>
@@ -177,3 +185,13 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    curl -X POST "http://localhost:8081/actuator/bus-refresh" -H "Content-Type: application/json" -d '{  }'
 3. Bus Environment - Add environment properties<br/>
    curl -X POST "http://localhost:8081/actuator/bus-env" -H "Content-Type: application/json" -d '{ "name": "temp.value", "value": "XYZ" }'
+4. Employee Service - Get Employees, Get Single Employee<br/>
+   curl -v -X GET "http://localhost:8082/employees" -H "Content-Type: application/json" 
+   curl -v -X GET "http://localhost:8082/employees/1" -H "Content-Type: application/json" 
+   curl -v -X GET "http://localhost:8082/employees/2" -H "Content-Type: application/json" 
+5. Employee Service - Create, Read, Update, Delete (CRUD) with H2 Database<br/>
+   curl -v -X POST "http://localhost:8082/employees" -H "Content-Type: application/json" -d '{"firstName":"Danny","lastName":"Developer","email":"danny@gmail.com"}'
+   curl -v -X GET "http://localhost:8082/employees/3" -H "Content-Type: application/json" 
+   curl -v -X PUT "http://localhost:8082/employees/3" -H "Content-Type: application/json" -d '{"id":3,"firstName":"Danny","lastName":"Developer","email":"danny@gmail.com"}'
+   curl -v -X GET "http://localhost:8082/employees/3" -H "Content-Type: application/json" 
+   curl -v -X DELETE "http://localhost:8082/employees/3" -H "Content-Type: application/json" 
