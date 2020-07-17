@@ -156,6 +156,10 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8888/zuul-service/default<br/>
    http://localhost:8888/zuul-service-default.properties<br/>
    http://localhost:8888/zuul-service-default.yml<br/>
+   http://localhost:8888/api-docs/<br/>
+   http://localhost:8888/api-docs.yaml<br/>
+   http://localhost:8888/api-tester/swagger-ui.html (Need to Fix)<br/>
+   
    
 4. Department Service<br/>
    http://localhost:8081<br/>
