@@ -67,6 +67,7 @@ https://swagger.io/resources/open-api/<br/>
 https://swagger.io/blog/news/whats-new-in-openapi-3-0/<br/>
 https://www.baeldung.com/spring-rest-openapi-documentation<br/>
 https://dzone.com/articles/openapi-3-documentation-with-spring-boot<br/>
+https://dzone.com/articles/doing-more-with-springdoc-openapi<br/>
 https://github.com/hemantsonu20/api-gateway-sample<br/>
 
 
