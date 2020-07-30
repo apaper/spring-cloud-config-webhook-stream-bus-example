@@ -187,6 +187,7 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    
 4. Department Service<br/>
    http://localhost:8081<br/>
+   http://localhost:8082/actuator<br/>
    http://localhost:8081/actuator/env<br/>
    http://localhost:8081/service<br/>
    http://localhost:8081/service/shared/property<br/>
@@ -196,7 +197,9 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8081/api-tester/swagger-ui.html<br/>
 5. Employee Service<br/>
    http://localhost:8082<br/>
+   http://localhost:8082/actuator<br/>
    http://localhost:8082/actuator/env<br/>
+   http://localhost:8082/actuator/flyway<br/>
    http://localhost:8082/service<br/>
    http://localhost:8082/service/shared/property<br/>
    http://localhost:8082/service/private/property<br/>
