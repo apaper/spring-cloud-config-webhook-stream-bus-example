@@ -247,7 +247,9 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    curl -s -v -XGET -H "X-Vault-Token: ${VAULT_TOKEN}" http://127.0.0.1:8200/v1/secret/data/employee-service | jq <br/>
    curl -s -v -XGET -H "X-Vault-Token: ${VAULT_TOKEN}" http://127.0.0.1:8200/v1/secret/data/zuul-service | jq <br/>
    curl -s -v -XGET -H "X-Vault-Token: ${VAULT_TOKEN}" http://127.0.0.1:8200/v1/secret/data/eureka-service | jq <br/>
-   
+   <br/>
+   Below is the ability to perform "Soft Delete" and recover from console<br/>
+   <br/>
    curl -s -v --header "X-Vault-Token: ${VAULT_TOKEN}" --request DELETE http://127.0.0.1:8200/v1/secret/data/application <br/>
    curl -s -v --header "X-Vault-Token: ${VAULT_TOKEN}" --request DELETE http://127.0.0.1:8200/v1/secret/data/department-service <br/>
    curl -s -v --header "X-Vault-Token: ${VAULT_TOKEN}" --request DELETE http://127.0.0.1:8200/v1/secret/data/employee-service <br/>
