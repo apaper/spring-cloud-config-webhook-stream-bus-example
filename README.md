@@ -54,6 +54,25 @@ https://levelup.gitconnected.com/application-monitoring-using-spring-boot-admin-
 https://www.youtube.com/watch?v=PWd9Q8_4OFo<br/>
 https://www.youtube.com/watch?v=Ql1Gnz4L_-c&feature=youtu.be<br/>
 
+9. Spring Documents (OpenAPI 3, Swagger)<br/>
+https://springdoc.org/springdoc-properties.html<br/>
+https://swagger.io/docs/open-source-tools/swagger-ui/usage/configuration/<br/>
+
+10. Spring Data JPA<br/>
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference<br/>
+https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html<br/>
+
+11. Hibernate<br/>
+http://hibernate.org/orm/what-is-an-orm/<br/>
+
+12. H2 Database & Console<br/>
+http://www.h2database.com/html/quickstart.html<br/>
+
+13. PostgreSQL Database<br/> 
+https://www.postgresql.org/<br/>
+
+14. pgAdmin<br/>
+https://www.pgadmin.org/<br/>
 
 
 ## Installation (Windows)
