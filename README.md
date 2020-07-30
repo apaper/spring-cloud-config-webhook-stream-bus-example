@@ -241,3 +241,15 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    curl -v -X PUT "http://localhost:8082/employees/3" -H "Content-Type: application/json" -d '{"id":3,"firstName":"Dick","lastName":"Grayson","email":"robin@gmail.com"}' <br/>
    curl -v -X GET "http://localhost:8082/employees/3" -H "Content-Type: application/json"<br/>
    curl -v -X DELETE "http://localhost:8082/employees/3" -H "Content-Type: application/json"<br/>
+5. Vault Service Examples (Read, Delete)<br/>
+   curl -s -v -XGET -H "X-Vault-Token: ${VAULT_TOKEN}" http://127.0.0.1:8200/v1/secret/data/application | jq 
+   curl -s -v -XGET -H "X-Vault-Token: ${VAULT_TOKEN}" http://127.0.0.1:8200/v1/secret/data/department-service | jq 
+   curl -s -v -XGET -H "X-Vault-Token: ${VAULT_TOKEN}" http://127.0.0.1:8200/v1/secret/data/employee-service | jq 
+   curl -s -v -XGET -H "X-Vault-Token: ${VAULT_TOKEN}" http://127.0.0.1:8200/v1/secret/data/zuul-service | jq 
+   curl -s -v -XGET -H "X-Vault-Token: ${VAULT_TOKEN}" http://127.0.0.1:8200/v1/secret/data/eureka-service | jq 
+   
+   curl -s -v --header "X-Vault-Token: ${VAULT_TOKEN}" --request DELETE http://127.0.0.1:8200/v1/secret/data/application
+   curl -s -v --header "X-Vault-Token: ${VAULT_TOKEN}" --request DELETE http://127.0.0.1:8200/v1/secret/data/department-service
+   curl -s -v --header "X-Vault-Token: ${VAULT_TOKEN}" --request DELETE http://127.0.0.1:8200/v1/secret/data/employee-service
+   curl -s -v --header "X-Vault-Token: ${VAULT_TOKEN}" --request DELETE http://127.0.0.1:8200/v1/secret/data/zuul-service
+   curl -s -v --header "X-Vault-Token: ${VAULT_TOKEN}" --request DELETE http://127.0.0.1:8200/v1/secret/data/eureka-service
