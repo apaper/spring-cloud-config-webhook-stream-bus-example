@@ -57,22 +57,41 @@ https://www.youtube.com/watch?v=Ql1Gnz4L_-c&feature=youtu.be<br/>
 9. Spring Documents (OpenAPI 3, Swagger)<br/>
 https://springdoc.org/springdoc-properties.html<br/>
 https://swagger.io/docs/open-source-tools/swagger-ui/usage/configuration/<br/>
+https://www.baeldung.com/spring-rest-openapi-documentation<br/>
+https://dzone.com/articles/openapi-3-documentation-with-spring-boot<br/>
+https://dzone.com/articles/doing-more-with-springdoc-openapi<br/>
+https://piotrminkowski.com/2020/02/20/microservices-api-documentation-with-springdoc-openapi/<br/>
+https://raymondhlee.wordpress.com/2019/11/19/adding-openapi-specifications-to-spring-boot-restful-apis/<br/>
 
 10. Spring Data JPA<br/>
 https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference<br/>
 https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html<br/>
+https://howtodoinjava.com/spring-boot2/spring-boot-crud-hibernate/<br/>
 
 11. Hibernate<br/>
 http://hibernate.org/orm/what-is-an-orm/<br/>
 
 12. H2 Database & Console<br/>
 http://www.h2database.com/html/quickstart.html<br/>
+https://springframework.guru/using-the-h2-database-console-in-spring-boot-with-spring-security/<br/>
+http://h2database.com/html/commands.html<br/>
+https://db-engines.com/en/system/H2%3BPostgreSQL<br/>
+https://www.jpab.org/Hibernate/H2/server/Hibernate/PostgreSQL/server.html<br/>
 
 13. PostgreSQL Database<br/> 
 https://www.postgresql.org/<br/>
 
 14. pgAdmin<br/>
 https://www.pgadmin.org/<br/>
+
+15. Flyway<br/>
+https://www.baeldung.com/database-migrations-with-flyway<br/>
+https://www.tutorialspoint.com/spring_boot/spring_boot_flyway_database.htm<br/>
+https://en.wikipedia.org/wiki/Flyway_(software)
+https://flywaydb.org/download/<br/>
+https://flywaydb.org/documentation/commandline/#download-and-installation<br/>
+https://hub.docker.com/r/flyway/flyway/<br/>
+https://www.liquibase.org/liquibase-vs-flyway?gclid=CjwKCAjwgdX4BRB_EiwAg8O8Hc0hAMW6dWQbbiVxfVwZ67l_c1MKgKToRHUE5T0v_nPRCGPDx12SXxoCLZsQAvD_BwE<br/>
 
 
 ## Installation (Windows)
