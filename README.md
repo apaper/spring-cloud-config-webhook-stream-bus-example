@@ -224,7 +224,7 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    curl -v -X GET "http://localhost:8082/employees" -H "Content-Type: application/json"<br/>
    curl -v -X GET "http://localhost:8082/employees/1" -H "Content-Type: application/json"<br/>
    curl -v -X GET "http://localhost:8082/employees/2" -H "Content-Type: application/json"<br/> 
-   curl -v -X POST "http://localhost:8082/employees" -H "Content-Type: application/json" -d '{"firstName":"Daniel","lastName":"Developer","email":"dan@gmail.com"}' <br/>
-   curl -v -X PUT "http://localhost:8082/employees/3" -H "Content-Type: application/json" -d '{"id":3,"firstName":"Dan","lastName":"Developer","email":"dan@gmail.com"}' <br/>
+   curl -v -X POST "http://localhost:8082/employees" -H "Content-Type: application/json" -d '{"firstName":"Daniel","lastName":"Dev","email":"dan@gmail.com"}' <br/>
+   curl -v -X PUT "http://localhost:8082/employees/3" -H "Content-Type: application/json" -d '{"id":3,"firstName":"Dan","lastName":"Dev","email":"dan@gmail.com"}' <br/>
    curl -v -X GET "http://localhost:8082/employees/3" -H "Content-Type: application/json"<br/>
    curl -v -X DELETE "http://localhost:8082/employees/3" -H "Content-Type: application/json"<br/>
