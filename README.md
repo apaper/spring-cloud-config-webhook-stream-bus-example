@@ -67,6 +67,7 @@ https://raymondhlee.wordpress.com/2019/11/19/adding-openapi-specifications-to-sp
 https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference<br/>
 https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html<br/>
 https://howtodoinjava.com/spring-boot2/spring-boot-crud-hibernate/<br/>
+https://www.javatpoint.com/spring-boot-starter-data-jpa<br/>
 
 11. Hibernate<br/>
 http://hibernate.org/orm/what-is-an-orm/<br/>
@@ -77,9 +78,13 @@ https://springframework.guru/using-the-h2-database-console-in-spring-boot-with-s
 http://h2database.com/html/commands.html<br/>
 https://db-engines.com/en/system/H2%3BPostgreSQL<br/>
 https://www.jpab.org/Hibernate/H2/server/Hibernate/PostgreSQL/server.html<br/>
+https://www.baeldung.com/spring-boot-h2-database<br/>
+https://www.springboottutorial.com/spring-boot-and-h2-in-memory-database<br/>
+https://howtodoinjava.com/spring-boot2/h2-database-example/<br/>
 
 13. PostgreSQL Database<br/> 
 https://www.postgresql.org/<br/>
+https://medium.com/@isurunuwanthilaka/docker-zero-to-hero-with-springboot-postgres-e0b8c3a4dccb<br/>
 
 14. pgAdmin<br/>
 https://www.pgadmin.org/<br/>
