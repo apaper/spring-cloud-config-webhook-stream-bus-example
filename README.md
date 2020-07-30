@@ -197,6 +197,13 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8082/service<br/>
    http://localhost:8082/service/shared/property<br/>
    http://localhost:8082/service/private/property<br/>
+   http://localhost:8082/employees<br/>
+   http://localhost:8082/employees/1<br/>
+   http://localhost:8082/employees/2<br/>
+   http://localhost:8082/api-docs/<br/>
+   http://localhost:8082/api-docs.yaml<br/>
+   http://localhost:8082/api-tester/swagger-ui.html<br/>
+   http://localhost:8082/h2/ (Enter JDBC URL: jdbc:h2:mem:protodb) <br/>
 6. Eureka Service<br/>
    http://localhost:8761<br/>
    http://localhost:8761/eureka/apps<br/>
@@ -224,7 +231,7 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    curl -v -X GET "http://localhost:8082/employees" -H "Content-Type: application/json"<br/>
    curl -v -X GET "http://localhost:8082/employees/1" -H "Content-Type: application/json"<br/>
    curl -v -X GET "http://localhost:8082/employees/2" -H "Content-Type: application/json"<br/> 
-   curl -v -X POST "http://localhost:8082/employees" -H "Content-Type: application/json" -d '{"firstName":"Daniel","lastName":"Dev","email":"dan@gmail.com"}' <br/>
-   curl -v -X PUT "http://localhost:8082/employees/3" -H "Content-Type: application/json" -d '{"id":3,"firstName":"Dan","lastName":"Dev","email":"dan@gmail.com"}' <br/>
+   curl -v -X POST "http://localhost:8082/employees" -H "Content-Type: application/json" -d '{"firstName":"Dick","lastName":"Grayson","email":"robin@gmail.com"}' <br/>
+   curl -v -X PUT "http://localhost:8082/employees/3" -H "Content-Type: application/json" -d '{"id":3,"firstName":"Dick","lastName":"Grayson","email":"robin@gmail.com"}' <br/>
    curl -v -X GET "http://localhost:8082/employees/3" -H "Content-Type: application/json"<br/>
    curl -v -X DELETE "http://localhost:8082/employees/3" -H "Content-Type: application/json"<br/>
