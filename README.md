@@ -217,6 +217,14 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
 1. Configuration Service - Monitor Endpoint (Simulate Github Webhook call)<br/>
    curl -v -X POST "http://localhost:8888/monitor" -H "Content-Type: application/json" -H "X-Event-Key: repo:push" -H "X-Hook-UUID: webhook-uuid" -d '{"push": {"changes": []} }'
 2. Bus Refresh - Refresh configuration properties<br/>
-   curl -X POST "http://localhost:8081/actuator/bus-refresh" -H "Content-Type: application/json" -d '{  }'
+   curl -X POST "http://localhost:8081/actuator/bus-refresh" -H "Content-Type: application/json" -d '{  }'<br/>
 3. Bus Environment - Add environment properties<br/>
-   curl -X POST "http://localhost:8081/actuator/bus-env" -H "Content-Type: application/json" -d '{ "name": "temp.value", "value": "XYZ" }'
+   curl -X POST "http://localhost:8081/actuator/bus-env" -H "Content-Type: application/json" -d '{ "name": "temp.value", "value": "XYZ" }'<br/>
+4. Employee Service CRUD Examples<br/>
+   curl -v -X GET "http://localhost:8082/employees" -H "Content-Type: application/json"<br/>
+   curl -v -X GET "http://localhost:8082/employees/1" -H "Content-Type: application/json"<br/>
+   curl -v -X GET "http://localhost:8082/employees/2" -H "Content-Type: application/json"<br/> 
+   curl -v -X POST "http://localhost:8082/employees" -H "Content-Type: application/json" -d '{"firstName":"Daniel","lastName":"Developer","email":"danny@gmail.com"}'<br/>
+   curl -v -X PUT "http://localhost:8082/employees/3" -H "Content-Type: application/json" -d '{"id":3,"firstName":"Dan","lastName":"Developer","email":"danny@gmail.com"}'<br/>
+   curl -v -X GET "http://localhost:8082/employees/3" -H "Content-Type: application/json" <br/>
+   curl -v -X DELETE "http://localhost:8082/employees/3" -H "Content-Type: application/json" <br/>
