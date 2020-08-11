@@ -1,0 +1,5 @@
+{
+    "private.pseudo.property": "private property loaded from vault for employee-service",
+    "private.db.username":"employee-service",
+    "private.db.password":"employee-service-password"
+}
