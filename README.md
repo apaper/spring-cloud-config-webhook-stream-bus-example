@@ -210,6 +210,7 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8082/service<br/>
    http://localhost:8082/service/shared/property<br/>
    http://localhost:8082/service/private/property<br/>
+   http://localhost:8082/service/private/db/credentials<br/>
    http://localhost:8082/employees<br/>
    http://localhost:8082/employees/1<br/>
    http://localhost:8082/employees/2<br/>
