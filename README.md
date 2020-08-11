@@ -105,7 +105,8 @@ https://www.liquibase.org/liquibase-vs-flyway?gclid=CjwKCAjwgdX4BRB_EiwAg8O8Hc0h
    Download - https://gitforwindows.org
 2. Java 12<br/>
    How To - https://www.quora.com/How-can-I-Install-Java-JDK-12-on-Windows-10<br/>
-   Download - https://www.oracle.com/java/technologies/javase/jdk12-archive-downloads.html
+   Downalod (latest) - https://www.oracle.com/java/technologies/javase/14-0-2-relnotes.html<br/>
+   Download (archive) - https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html<br/>
 3. Maven<br/>
    How To - https://howtodoinjava.com/maven/how-to-install-maven-on-windows/<br/>
    Download - https://maven.apache.org/download.cgi
