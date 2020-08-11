@@ -1,0 +1,5 @@
+{
+    "private.pseudo.property": "private property loaded from vault for scim-service",
+    "private.db.username":"postgres",
+    "private.db.password":"password"
+}
