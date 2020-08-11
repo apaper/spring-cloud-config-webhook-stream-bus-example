@@ -1,5 +1,10 @@
 # spring-cloud-config-webhook-stream-bus-example
 
+## Software Baseline
+1. Java 14.0.2 Release 7/14/2020 (latest)
+2. Spring Boot 2.3.2 Release 7/24/2020 (latest)
+3. Hoxton.SR7 Release 8/4/2020 (latest)
+	
 ## Reference Articles & Source Code Repositories<br/>
 1. Introduction to Spring Cloud Config Server and Config Client (Part 1)<br/>
 https://springbootdev.com/2018/07/14/microservices-introduction-to-spring-cloud-config-server-with-client-examples/<br/>
@@ -103,8 +108,8 @@ https://www.liquibase.org/liquibase-vs-flyway?gclid=CjwKCAjwgdX4BRB_EiwAg8O8Hc0h
 1. Git Bash<br/>
    How To - https://www.techoism.com/how-to-install-git-bash-on-windows<br/>
    Download - https://gitforwindows.org
-2. Java 12<br/>
-   How To - https://www.quora.com/How-can-I-Install-Java-JDK-12-on-Windows-10<br/>
+2. Java 14<br/>
+   How To - https://docs.oracle.com/en/java/javase/14/install/installation-jdk-microsoft-windows-platforms.html<br/>
    Downalod (latest) - https://www.oracle.com/java/technologies/javase/14-0-2-relnotes.html<br/>
    Download (archive) - https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html<br/>
 3. Maven<br/>
