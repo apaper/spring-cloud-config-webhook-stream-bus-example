@@ -195,6 +195,7 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8081/api-docs/<br/>
    http://localhost:8081/api-docs.yaml<br/>
    http://localhost:8081/api-tester/swagger-ui.html<br/>
+   
 5. Employee Service<br/>
    http://localhost:8082<br/>
    http://localhost:8082/actuator<br/>
@@ -210,10 +211,12 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8082/api-docs.yaml<br/>
    http://localhost:8082/api-tester/swagger-ui.html<br/>
    http://localhost:8082/h2/ (Enter JDBC URL: jdbc:h2:mem:protodb) <br/>
+   
 6. Eureka Service<br/>
    http://localhost:8761<br/>
    http://localhost:8761/eureka/apps<br/>
    http://localhost:8761/actuator/env<br/>
+   
 7. Zuul Service<br/>
    http://localhost:8011<br/>
    http://localhost:8011/actuator/env<br/>
@@ -222,6 +225,7 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    http://localhost:8011/em/api/eureka-service/eureka/apps<br/>
    http://localhost:8011/em/api/department-service/service<br/>
    http://localhost:8011/em/api/employee-service/service<br/>
+   
 8. Admin Service (spring-boot-admin-server)<br/>
    http://localhost:8080<br/>
    http://localhost:8080/actuator/env<br/>
@@ -229,10 +233,13 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
 ## Local Curl Commands to Test/Verify
 1. Configuration Service - Monitor Endpoint (Simulate Github Webhook call)<br/>
    curl -v -X POST "http://localhost:8888/monitor" -H "Content-Type: application/json" -H "X-Event-Key: repo:push" -H "X-Hook-UUID: webhook-uuid" -d '{"push": {"changes": []} }'
+   
 2. Bus Refresh - Refresh configuration properties<br/>
    curl -X POST "http://localhost:8081/actuator/bus-refresh" -H "Content-Type: application/json" -d '{  }'<br/>
+   
 3. Bus Environment - Add environment properties<br/>
    curl -X POST "http://localhost:8081/actuator/bus-env" -H "Content-Type: application/json" -d '{ "name": "temp.value", "value": "XYZ" }'<br/>
+   
 4. Employee Service CRUD Examples<br/>
    curl -v -X GET "http://localhost:8082/employees" -H "Content-Type: application/json"<br/>
    curl -v -X GET "http://localhost:8082/employees/1" -H "Content-Type: application/json"<br/>
@@ -241,3 +248,18 @@ cd spring-cloud-config-webhook-stream-bus-example/scripts; ./shutdown.sh
    curl -v -X PUT "http://localhost:8082/employees/3" -H "Content-Type: application/json" -d '{"id":3,"firstName":"Dick","lastName":"Grayson","email":"robin@gmail.com"}' <br/>
    curl -v -X GET "http://localhost:8082/employees/3" -H "Content-Type: application/json"<br/>
    curl -v -X DELETE "http://localhost:8082/employees/3" -H "Content-Type: application/json"<br/>
+   
+5. Vault Service Examples (Read, Delete)<br/>
+   curl -s -v -XGET -H "X-Vault-Token: ${VAULT_TOKEN}" http://127.0.0.1:8200/v1/secret/data/application | jq <br/>
+   curl -s -v -XGET -H "X-Vault-Token: ${VAULT_TOKEN}" http://127.0.0.1:8200/v1/secret/data/department-service | jq <br/>
+   curl -s -v -XGET -H "X-Vault-Token: ${VAULT_TOKEN}" http://127.0.0.1:8200/v1/secret/data/employee-service | jq <br/>
+   curl -s -v -XGET -H "X-Vault-Token: ${VAULT_TOKEN}" http://127.0.0.1:8200/v1/secret/data/zuul-service | jq <br/>
+   curl -s -v -XGET -H "X-Vault-Token: ${VAULT_TOKEN}" http://127.0.0.1:8200/v1/secret/data/eureka-service | jq <br/>
+   ************************************************************************<br/>
+   Below is the ability to perform "Soft Delete" and still recover from console<br/>
+   ************************************************************************<br/>
+   curl -s -v --header "X-Vault-Token: ${VAULT_TOKEN}" --request DELETE http://127.0.0.1:8200/v1/secret/data/application <br/>
+   curl -s -v --header "X-Vault-Token: ${VAULT_TOKEN}" --request DELETE http://127.0.0.1:8200/v1/secret/data/department-service <br/>
+   curl -s -v --header "X-Vault-Token: ${VAULT_TOKEN}" --request DELETE http://127.0.0.1:8200/v1/secret/data/employee-service <br/>
+   curl -s -v --header "X-Vault-Token: ${VAULT_TOKEN}" --request DELETE http://127.0.0.1:8200/v1/secret/data/zuul-service <br/>
+   curl -s -v --header "X-Vault-Token: ${VAULT_TOKEN}" --request DELETE http://127.0.0.1:8200/v1/secret/data/eureka-service <br/>
