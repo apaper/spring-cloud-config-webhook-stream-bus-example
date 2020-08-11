@@ -56,6 +56,7 @@ public class WelcomeController {
 		LOG.info(getServiceName());
 		LOG.info(getSharedProperty());
 		LOG.info(getPrivateProperty());
+		LOG.info(getDatabaseCredentials());
 		LOG.debug("END");
 	}
 }
