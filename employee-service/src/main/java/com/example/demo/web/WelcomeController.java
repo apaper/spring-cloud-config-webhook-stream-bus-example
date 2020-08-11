@@ -24,6 +24,12 @@ public class WelcomeController {
 	@Value("${private.pseudo.property}")
 	private String privateProperty;
 
+	@Value("${private.db.username}")
+	private String username;
+
+	@Value("${private.db.password}")
+	private String password;
+
 	@GetMapping("/service")
 	public String getServiceName() {
 		return "service name [" + this.serviceName + "]";
@@ -37,6 +43,11 @@ public class WelcomeController {
 	@GetMapping("/service/private/property")
 	public String getPrivateProperty() {
 		return "service name [private.pseudo.property=" + this.privateProperty + "]";
+	}
+
+	@GetMapping("/service/private/db/credentials")
+	public String getDatabaseCredentials() {
+		return "[private.db.username=" + this.username + ", private.db.password=" + password + "]";
 	}
 
 	@PostConstruct
