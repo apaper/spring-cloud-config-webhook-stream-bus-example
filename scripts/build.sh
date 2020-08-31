@@ -32,3 +32,8 @@ echo "*************************************"
 echo " build employee-service"
 echo "*************************************"
 cd ../employee-service; ./mvnw clean install -DskipTests
+
+echo "*************************************"
+echo " build scim-service"
+echo "*************************************"
+cd ../scim-service; ./mvnw clean install -DskipTests
