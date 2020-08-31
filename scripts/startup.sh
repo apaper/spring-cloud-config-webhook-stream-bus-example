@@ -1,9 +1,15 @@
 #!/bin/sh
 
 echo "*************************************"
+echo " start database-service -> postgres"
+echo "*************************************"
+docker container start postgres
+sleep 30
+
+echo "*************************************"
 echo " start message-service"
 echo "*************************************"
-docker container start some-rabbit
+docker container start rabbit
 sleep 30
 
 echo "*************************************"
@@ -52,6 +58,12 @@ echo "*************************************"
 echo " start employee-service"
 echo "*************************************"
 (start mintty './start-employee-service.sh')
+sleep 30
+
+echo "*************************************"
+echo " start scim-service"
+echo "*************************************"
+(start mintty './start-scim-service.sh')
 sleep 30
 
 echo "*************************************"

@@ -25,6 +25,14 @@ sleep 5
 
 echo ""
 echo "*************************************"
+echo " taskkill scim-service port 8083"
+echo "*************************************"
+echo ""
+netstat -ano | findstr :8083 | awk '{ print $5 }' | sort | uniq | while read pid; do taskkill //PID ${pid} //F; done;
+sleep 5
+
+echo ""
+echo "*************************************"
 echo " taskkill zuul-service port 8011"
 echo "*************************************"
 echo ""
@@ -82,7 +90,7 @@ echo "*************************************"
 echo " Stop the message-service -> docker container stop some-rabbit"
 echo "*************************************"
 echo ""
-docker container stop some-rabbit
+docker container stop rabbit
 
 echo ""
 echo "*************************************"
@@ -90,6 +98,13 @@ echo " Stop the vault-service -> docker container stop vault"
 echo "*************************************"
 echo ""
 docker container stop vault
+
+echo ""
+echo "*************************************"
+echo " Stop the database-service -> postgres -> docker container stop postgres"
+echo "*************************************"
+echo ""
+docker container stop postgres 
 
 echo ""
 echo "*************************************"
