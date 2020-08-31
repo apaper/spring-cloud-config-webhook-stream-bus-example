@@ -1,2 +1,2 @@
 #!/bin/sh
-docker container stop some-rabbit
+docker container stop rabbit

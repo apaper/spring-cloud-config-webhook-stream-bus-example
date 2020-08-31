@@ -1,2 +1,2 @@
 #!/bin/sh
-docker container rm some-rabbit
+docker container rm rabbit

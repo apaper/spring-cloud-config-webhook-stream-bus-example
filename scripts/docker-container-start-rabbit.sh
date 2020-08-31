@@ -1,2 +1,2 @@
 #!/bin/sh
-docker container start some-rabbit
+docker container start rabbit
