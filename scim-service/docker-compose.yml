@@ -1,0 +1,56 @@
+# docker-compose.yml
+version: '3.8'
+services:
+# start zuul server container
+#   zuul:
+#      container_name: zuul
+#      build:
+#         context: ../zuul-service
+#         dockerfile: Dockerfile
+#      image: zuul.latest
+#      environment:
+#         ENV: development
+#      ports:
+#         - 8011:8011
+#      networks:
+#         - em-net
+#      depends_on:
+#         - messagebroker
+#         - vault
+#         - springconfig
+#         - eureka
+#         - springadmin
+# start scim server container
+   scim-server:
+      container_name: scim-server
+      build:
+         context: .
+         dockerfile: Dockerfile
+      image: scim-server.latest
+      #entrypoint:
+      environment:
+         ENV: development
+      expose:
+         - 8082
+      ports:
+         - 8082:8082
+      network_mode: config-service_em-net
+# start sping admin server container
+   springadmin:
+      container_name: springadmin
+      build:
+         context: ../admin-service
+         dockerfile: Dockerfile
+      image: springadmin.latest
+      environment:
+         ENV: development
+      ports:
+         - 8080:8080
+      network_mode: config-service_em-net
+#      depends_on:
+#         - database
+#         - messagebroker
+#         - vault
+#         - springconfig
+#         - eureka
+#         - springadmin
